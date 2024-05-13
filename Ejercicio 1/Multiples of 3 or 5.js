@@ -11,4 +11,4 @@ function MultiplesOf3Or5(num) {
   console.log(filter);
 }
 
-MultiplesOf3Or5(10);
+MultiplesOf3Or5(1000);

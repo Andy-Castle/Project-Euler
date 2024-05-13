@@ -1,0 +1,2 @@
+++) {
+    if (resultado < num) {

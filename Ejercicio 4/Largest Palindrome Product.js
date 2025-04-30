@@ -24,11 +24,11 @@ function MultiplyValueX(value) {
     result = i * value;
     let palindrome = ItsPalindrome(String(result));
     if (palindrome) {
-      
-      return [i];
+      return i;
     }
     // console.log(`${i} x ${count} = ${result}`);
   }
+  return false;
 }
 
 console.log(MultiplyValueX(count));
